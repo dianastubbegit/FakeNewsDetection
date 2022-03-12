@@ -24,3 +24,25 @@ Two modeling techniques are analyzed.
 A typical Bayesian learning methodology in natural language is the Multinomial Naive Bayes method. The algorithm calculates a text's tag, such as a newspaper article. Then, it estimates each tag's likelihood for a given sample and returns the tag with the highest probability. The accuracy is close to 95%.
 
 The Passive-Aggressive Classifier is a machine learning technique that responds passively to correct classifications and aggressively to any miscalculations, allowing it to self-update and modify regularly. The accuracy is close to 99%.
+
+# FileDescriptions
+File Descriptions
+
+   - Fake.csv: Kaggle sourced comma-delimited file that contains data collected from unreliable websites that were flagged by Politifact
+     https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
+
+   - True.csv: Kaggle sourced comma-delimited file that contains data collected from real-world sources from crawling articles from Reuters
+     https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
+     
+   - CombinedNews.csv: Kaggle sourced comma-delimited file that contains data from Fake.csv and True.csv
+     https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
+
+   - CapstoneChiSquareHypothesis.py: python code to analyze the null hypothesis
+
+   - CapstoneMultinomialNaiveBayes.py: python code to analyze the Multinomial Naive Bayes Classifier
+
+   - CapstonePassiveAggressive.py: python code to analyze the Passive-Aggressive Classifier
+
+   - CapstoneFakeNewsDetectionCombined.py: python code to analyze the two Classifiers concurrently
+
+   - Module8PowerBI.pbix: Power BI Report that summarizes the data in the Fake.csv and True.csv files
