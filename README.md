@@ -29,12 +29,12 @@ The Passive-Aggressive Classifier is a machine learning technique that responds 
 File Descriptions
 
    - Fake.csv: Kaggle sourced comma-delimited file that contains data collected from unreliable websites that were flagged by Politifact
-     https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
+     https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset  (Only 100 rows loaded due to size limitations)
 
    - True.csv: Kaggle sourced comma-delimited file that contains data collected from real-world sources from crawling articles from Reuters
-     https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
+     https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset (Only 100 rows loaded due to size limitations)
      
-   - CombinedNews.csv: Kaggle sourced comma-delimited file that contains data from Fake.csv and True.csv
+   - CombinedNews.csv: Kaggle sourced comma-delimited file that contains data from Fake.csv and True.csv (Only 200 rows loaded due to size limitations)
      https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
 
    - CapstoneChiSquareHypothesis.py: python code to analyze the null hypothesis
@@ -45,4 +45,4 @@ File Descriptions
 
    - CapstoneFakeNewsDetectionCombined.py: python code to analyze the two Classifiers concurrently
 
-   - Module8PowerBI.pbix: Power BI Report that summarizes the data in the Fake.csv and True.csv files
+   - Module8PowerBI.pbix: Power BI Report that summarizes the data in the Fake.csv and True.csv files (Only 200 rows available in the report due to size limitations)
